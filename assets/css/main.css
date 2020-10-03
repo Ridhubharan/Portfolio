@@ -28,14 +28,22 @@ body {
 }
 
 #horbar {
-	background-image: linear-gradient(to right, #18bfef, transparent);
+	/* background-image: linear-gradient(to right, #18bfef, transparent); */
+	background-image: url(../../images/paperPlane.png);
+	background-repeat: no-repeat;
+	background-position: center;
 	border: 0;
-	height: 1px;
+	height: 50px;
 	width: 50%;
 	margin-left:25%;
 	margin-right:25%;
 	margin-top: 2%;
 	margin-bottom: 2%;
+}
+
+#horbar hr {
+	border-top: 10px dotted red;
+	background-color: black;
 }
 
 .serif {
