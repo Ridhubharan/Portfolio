@@ -122,6 +122,18 @@ input, select, textarea {
 			min-width: 320px;
 		}
 
+		div.moveRight {
+			margin-left: 0px;
+			text-align: left;
+		}
+
+		.makeMarginLeft {
+			margin-left: 0px;
+		}
+
+		.makeMarginRight {
+			margin-right: 0px;
+		}
 	}
 
 	html {
