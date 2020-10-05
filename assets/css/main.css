@@ -27,6 +27,10 @@ body {
 	line-height: 1;
 }
 
+#mainpic {
+	border-radius: 10px;
+}
+
 #horbar {
 	/* background-image: linear-gradient(to right, #18bfef, transparent); */
 	background-image: url(../../images/paperPlane.png);
@@ -37,19 +41,30 @@ body {
 	width: 50%;
 	margin-left:25%;
 	margin-right:25%;
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 1.25%;
+	margin-bottom: 1.25%;
 }
 
-#horbar hr {
-	border-top: 10px dotted red;
-	background-color: black;
+div.moveRight {
+	margin-left: 400px;
+	text-align: left;
+}
+div.moveLeft {
+	float: left;
 }
 
 .serif {
 	font-family: serif;
 	letter-spacing: normal;
 	word-spacing: 5px;
+}
+
+.makeMarginLeft {
+	margin-left: 20px;
+}
+
+.makeMarginRight {
+	margin-right: 20px;
 }
 
 ol, ul {
@@ -2974,7 +2989,7 @@ input, select, textarea {
 
 			header.major > p {
 				margin-top: 0;
-				text-align: center;
+				text-align: left;
 			}
 
 			header.major > .date {
@@ -3259,6 +3274,7 @@ input, select, textarea {
 			background-repeat: repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
+			background-repeat: no-repeat;
 		}
 
 			#wrapper > .bg.fixed {
