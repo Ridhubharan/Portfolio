@@ -116,15 +116,30 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 850px) {
 
 		html, body {
 			min-width: 320px;
 		}
 
 		div.moveRight {
-			margin-left: 1px;
+			min-width: 0%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: auto;
+			margin-bottom: auto;
 			text-align: left;
+		}
+
+		div.moveLeft {
+			float: none;
+		}
+
+		#mainpic {
+			border-radius: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 10px;
 		}
 
 		.makeMarginLeft {
