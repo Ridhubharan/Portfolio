@@ -32,7 +32,6 @@ body {
 }
 
 #horbar {
-	/* background-image: linear-gradient(to right, #18bfef, transparent); */
 	background-image: url(../../images/paperPlane.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -51,6 +50,11 @@ div.moveRight {
 }
 div.moveLeft {
 	float: left;
+}
+
+h2.secHeading {
+	font-family: serif;
+	letter-spacing: 0px;
 }
 
 .serif {
